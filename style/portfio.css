@@ -5,12 +5,38 @@
   }
   
   .btn{
-padding: 18px 35px;
+padding: 15px 30px;
 background-color: orange;
 font-weight: 800;
 color: white;
 border-radius: 10px;
 border: none;
+
+}
+
+.about-titel{
+  font-size: 45px;
+  font-weight: bold;
+ margin-bottom: 0;
+}
+.bg {
+  background-color: #FFF8F3;
+}
+.center{
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+header{
+  background-image: url('../img/developer.png'), url('../img/header_bg.png') ;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 
 }
   .tittel{
@@ -43,3 +69,77 @@ font-weight: 800;
     font-size: 20px;
 color: black;
   }
+
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+  }
+  .banner-contenar{
+    max-width: 580px;
+  }
+.banner-tittel{
+  font-size: 45px;
+  font-weight: 600px;
+  margin-bottom:0 ;
+}
+.banner-discription{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 10px;
+
+}
+.prapra{
+  text-align: justify;
+  color: black;
+}
+  .banner-img{
+    width: 580px;
+
+  }
+  main{
+    max-width: 940px;
+    margin: 0 auto;
+    
+  }
+  .about{
+    text-align: center;
+    padding:30px 100px  ;
+    border-radius: 10px;
+    margin-top: 130px;
+  }
+  .items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item-titel{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .item-discription{
+    font-weight: bold;
+  }
+  .skils{
+    padding: 30px 100px ;
+    margin-top: 100px;
+  }
+
+.skills-containar{
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.skills{
+  padding:30px ;
+border-radius: 10px;
+box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06) ;
+}
+
+.skills-discribtion{
+  text-align: justify;
+  margin-bottom: 0;
+
+}
