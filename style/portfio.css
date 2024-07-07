@@ -143,3 +143,60 @@ box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06) ;
   margin-bottom: 0;
 
 }
+
+
+
+/* summary resume*/
+.resumes{
+  margin-top: 130px;
+}
+.resume{
+  display: flex;
+  gap: 20px;
+}
+.ex-titel{
+  margin-bottom: 0px;
+}
+hr{
+  margin: 30px 0px;
+}
+.button{
+  margin-top: 30px;
+}
+
+
+/* contack*/
+
+.footer{
+  margin-top: 130px;
+  padding: 130px 230px;
+  display: flex;
+  gap: 20px;
+}
+.contack{
+  width: 50%;
+}
+.contack-tite{
+  font-weight: bold;
+}
+.icon{
+  margin: 0 10px;
+}
+.icon i{
+  margin: 0 10px;
+font-size: 30px;
+color: orange;
+}
+input, textarea{
+  background-color: white;
+  border: none;
+ height: 40px;
+ display: block;
+ padding: 10px 20px;
+ border-radius: 10px;
+ width: 100%;
+ margin-bottom:24px ;
+}
+
+
+
