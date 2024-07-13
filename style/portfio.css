@@ -38,6 +38,8 @@ header{
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 
+
+
 }
   .tittel{
     font-size: 20px ;
@@ -75,9 +77,7 @@ color: black;
     justify-content: space-between;
     margin: 0 35px 0 200px;
   }
-  .banner-contenar{
-    max-width: 580px;
-  }
+  
 .banner-tittel{
   font-size: 45px;
   font-weight: 600px;
@@ -96,7 +96,7 @@ color: black;
   color: black;
 }
   .banner-img{
-    width: 580px;
+    width: 100%px;
 
   }
   main{
@@ -141,7 +141,6 @@ box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06) ;
 .skills-discribtion{
   text-align: justify;
   margin-bottom: 0;
-
 }
 
 
@@ -198,6 +197,39 @@ input, textarea{
  margin-bottom:24px ;
  resize: none;
 }
+textarea{
+  height: 200px;
+  
+}
 
 
+@media screen and (max-width:576px) {
+  .skills-containar, 
+  .resume,
+  .banner,
+  nav ,
+  .ul  {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+.footer ,.about ,.items,.item{
+flex-direction: column;
+padding: 10px;
 
+}
+
+.contack{
+    width: 100%;
+  }
+  input, textarea{
+    width:calc(100% - 20px);
+    padding: 0 10px;
+  }
+ header{
+  background-image: none;
+ }
+ 
+
+ 
+}
